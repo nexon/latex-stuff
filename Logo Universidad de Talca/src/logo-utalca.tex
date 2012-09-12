@@ -1,0 +1,21 @@
+%%LOGO UNIVERSIDAD DE TALCA
+\documentclass{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{pstricks}
+\usepackage{pstricks-add}
+\usepackage{graphicx}
+\author{Alberto Lagos Toro.\\alberto.lagos@gmail.com}
+\pagestyle{empty}
+\begin{document}
+	\definecolor{Maroon}{cmyk}{0,0.87,0.68,0.32}
+	%%Only Logo
+	\begin{pspicture}[showgrid=false](0,0)(4,7) 
+	     	\rput(3,2){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0)(3.5,0)(3.5,1)(0,1)} 	%%Top rectangle		
+			\rput(3.014,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} %%Left Rectangle
+			\rput(5.4849,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} %%Right Rectangle
+			\rput(4,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{180}{270}} %%ARC Left
+			\rput(5.5,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{270}{0}} %%ARC Right
+			\rput(3,-0.576){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](1,0)(2.5,0)(2.5,1)(1,1)} %Bottom Rectangle
+	\end{pspicture}\\
+\end{document}

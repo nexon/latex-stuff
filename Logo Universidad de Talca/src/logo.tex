@@ -1,0 +1,47 @@
+%%LOGO UNIVERSIDAD DE TALCA
+\documentclass{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{pstricks}
+\usepackage{pstricks-add}
+% \usepackage[usenames]{color}
+% % \usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\begin{document}
+	\definecolor{Maroon}{cmyk}{0,0.87,0.68,0.32}
+	%%Only Logo
+	\begin{pspicture}[showgrid=false](0,0)(4,5) 
+	     	\rput(3,2){
+				\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0)(3.5,0)(3.5,1)(0,1)
+			} 			
+			\rput(3,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} 
+			\rput(5.49,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} 
+			\rput(4,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{180}{270}} %%ARC Left
+			\rput(5.5,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{270}{0}} %%ARC Right
+			\rput(3,-0.58){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](1,0)(2.5,0)(2.5,1)(1,1)} 
+	\end{pspicture}\\
+	%%Logo with Name down
+	\begin{pspicture}[showgrid=false](0,0)(4,7) 
+	     	\rput(3,2){
+				\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0)(3.5,0)(3.5,1)(0,1)
+			} 			
+			\rput(3,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} 
+			\rput(5.49,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} 
+			\rput(4,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{180}{270}} %%ARC Left
+			\rput(5.5,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{270}{0}} %%ARC Right
+			\rput(3,-0.58){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](1,0)(2.5,0)(2.5,1)(1,1)} 
+			\rput[br](8.6,-2){\Huge{Universidad De Talca}}
+	\end{pspicture}\\
+	%%Logo with Name a side
+	\begin{pspicture}[showgrid=false](0,0)(4,7) 
+	     	\rput(3,2){
+				\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0)(3.5,0)(3.5,1)(0,1)
+			} 			
+			\rput(3,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} 
+			\rput(5.49,0){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](0,0.4)(1,0.4)(1,1.8)(0,1.8)} 
+			\rput(4,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{180}{270}} %%ARC Left
+			\rput(5.5,0.41){\pswedge[linecolor=Maroon,fillcolor=Maroon,fillstyle=solid]{1}{270}{0}} %%ARC Right
+			\rput(3,-0.58){\pspolygon[linecolor=Maroon,fillstyle=solid, fillcolor=Maroon](1,0)(2.5,0)(2.5,1)(1,1)} 
+			\rput[br](15,1){\Huge{Universidad De Talca}}
+	\end{pspicture}
+\end{document}
