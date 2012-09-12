@@ -1,4 +1,3 @@
-latex-stuff
+LaTeX Template
 ===========
-
-Stuff made in LaTeX that i use for University
+Collection of template or themes for LaTeX. Feel free to use ;)
